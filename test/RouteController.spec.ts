@@ -24,7 +24,7 @@ describe('RouteController (e2e)', () => {
     });
 
     describe('GET /routes/between', () => {
-        it('should list routes between start and dest, ordered by travel time', async done => {
+        it('should list routes between start and dest, ordered by travel time', async () => {
             return inTestContext().run(async () => {
                 const result = await request(app.getHttpServer())
                     .get('/routes/between/Pigalle/NYC')
@@ -33,21 +33,18 @@ describe('RouteController (e2e)', () => {
                 expect(result.body.length).toBeGreaterThan(0);
                 expect(result.body[0].travelTime).toEqual(8.5);
 
-                done();
             });
         });
     });
 
     describe('GET /routes/fastest/between', () => {
-        it('should return the fastest route between start and dest ', async done => {
+        it('should return the fastest route between start and dest ', async () => {
             return inTestContext().run(async () => {
                 const result = await request(app.getHttpServer())
                     .get('/routes/between/Pigalle/NYC')
                     .expect(HttpStatus.OK);
 
                 expect(result.body[0].travelTime).toEqual(8.5);
-
-                done();
             });
         });
     });
