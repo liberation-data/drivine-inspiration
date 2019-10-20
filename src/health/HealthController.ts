@@ -1,22 +1,22 @@
-import { Controller, Get } from "@nestjs/common";
-import { HealthRepository } from "./HealthRepository";
+import { Controller, Get } from '@nestjs/common';
+import { HealthRepository } from './HealthRepository';
 
 interface StatusReport {
-  vertices: number;
+    vertices: number;
 }
 
-@Controller("health")
+@Controller('health')
 export class HealthController {
-  public constructor(public readonly healthRepo: HealthRepository) {}
+    public constructor(public readonly healthRepo: HealthRepository) {}
 
-  @Get("check")
-  public check(): string {
-    return "OK";
-  }
+    @Get('check')
+    public check(): string {
+        return 'OK';
+    }
 
-  @Get("status")
-  public async status(): Promise<StatusReport> {
-    const result = await this.healthRepo.countAllVertices();
-    return <StatusReport>{ vertices: result };
-  }
+    @Get('status')
+    public async status(): Promise<StatusReport> {
+        const result = await this.healthRepo.countAllVertices();
+        return <StatusReport>{ vertices: result };
+    }
 }
