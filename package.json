@@ -39,8 +39,8 @@
         "test:cov": "jest --coverage"
     },
     "dependencies": {
-        "@liberation-data/drivine": "^0.0.4",
         "@liberation-data/agensgraph": "^0.1.0-rc",
+        "@liberation-data/drivine": "0.0.4",
         "@nestjs/common": "^6.8.3",
         "@nestjs/core": "^6.8.3",
         "@nestjs/platform-express": "^6.8.3",
@@ -53,6 +53,7 @@
         "mississippi": "^4.0.0",
         "moment": "^2.24.0",
         "neo4j-driver": "^1.7.6",
+        "pegjs": "^0.10.0",
         "pg": "^7.12.1",
         "pg-cursor": "^2.0.0",
         "pg-hstore": "^2.3.3",
