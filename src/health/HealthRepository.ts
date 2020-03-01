@@ -1,12 +1,13 @@
 import { Injectable } from '@nestjs/common';
-import { NonTransactionalPersistenceManager } from '@liberation-data/drivine/manager/NonTransactionalPersistenceManager';
 import { QuerySpecification } from '@liberation-data/drivine/query/QuerySpecification';
+import { InjectPersistenceManager } from '@liberation-data/drivine/DrivineInjectionDecorators';
+import { PersistenceManager } from '@liberation-data/drivine/manager/PersistenceManager';
 
 @Injectable()
 export class HealthRepository {
-    public constructor(public readonly persistenceManager: NonTransactionalPersistenceManager) {}
+    constructor(@InjectPersistenceManager() readonly persistenceManager: PersistenceManager) {}
 
-    public async countAllVertices(): Promise<number> {
+    async countAllVertices(): Promise<number> {
         const results = await this.persistenceManager.query<any>(
             new QuerySpecification(`match (n) return count(n) as count`)
         );

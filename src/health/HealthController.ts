@@ -7,15 +7,15 @@ interface StatusReport {
 
 @Controller('health')
 export class HealthController {
-    public constructor(public readonly healthRepo: HealthRepository) {}
+    constructor(readonly healthRepo: HealthRepository) {}
 
     @Get('check')
-    public check(): string {
+    check(): string {
         return 'OK';
     }
 
     @Get('status')
-    public async status(): Promise<StatusReport> {
+    async status(): Promise<StatusReport> {
         const result = await this.healthRepo.countAllVertices();
         return <StatusReport>{ vertices: result };
     }
