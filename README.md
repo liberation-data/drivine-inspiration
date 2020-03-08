@@ -13,7 +13,7 @@ This application is a starter template - the intention is that you can get rolli
 
 ## Important 
 
-Please load [this gist](https://liberation-data.com/saxeburg-series/2018/11/28/rock-n-roll-traffic-routing.html) before running the tests or the app itself. 
+Please load [this gist](https://gist.github.com/jasperblues/7a6e774090c9ef0f18c44920b48b6b23) before running the tests or the app itself. 
 
 ## License
 
