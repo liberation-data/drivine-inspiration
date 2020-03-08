@@ -39,8 +39,7 @@
         "test:cov": "jest --coverage"
     },
     "dependencies": {
-        "@liberation-data/agensgraph": "^0.1.0-rc",
-        "@liberation-data/drivine": "^1.1.0",
+        "@liberation-data/drivine": "^1.1.2",
         "@nestjs/common": "^6.11.8",
         "@nestjs/core": "^6.11.8",
         "@nestjs/platform-express": "^6.11.8",
@@ -53,15 +52,8 @@
         "mississippi": "^4.0.0",
         "moment": "^2.24.0",
         "neo4j-driver": "^1.7.6",
-        "pegjs": "^0.10.0",
-        "pg": "^7.12.1",
-        "pg-cursor": "^2.0.0",
-        "pg-hstore": "^2.3.3",
         "reflect-metadata": "^0.1.13",
         "rxjs": "^6.5.3",
-        "shortid": "^2.2.15",
-        "ts-data.stack": "^1.0.6",
-        "typescript-cacheable": "^1.0.5",
         "uuid": "^3.3.2"
     },
     "devDependencies": {
