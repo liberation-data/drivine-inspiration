@@ -1,10 +1,8 @@
-import { Module, NestModule } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { HealthModule } from './health/HealthModule';
 import { TrafficModule } from './traffic/TrafficModule';
 import { DrivineModule, DrivineModuleOptions } from '@liberation-data/drivine/DrivineModule';
 import { DatabaseRegistry } from '@liberation-data/drivine/connection/DatabaseRegistry';
-import { MiddlewareConsumer } from '@nestjs/common/interfaces/middleware/middleware-consumer.interface';
-import { TransactionContextMiddleware } from '@liberation-data/drivine/transaction/TransactionContextMiddleware';
 
 @Module({
     imports: [
@@ -17,10 +15,7 @@ import { TransactionContextMiddleware } from '@liberation-data/drivine/transacti
     controllers: [],
     providers: []
 })
-export class AppModule implements NestModule {
+export class AppModule {
 
-    configure(consumer: MiddlewareConsumer): any {
-        consumer.apply(TransactionContextMiddleware).forRoutes('');
-    }
 
 }
