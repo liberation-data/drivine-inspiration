@@ -5,7 +5,6 @@ import { DrivineModule, DrivineModuleOptions } from '@liberation-data/drivine/Dr
 import { DatabaseRegistry } from '@liberation-data/drivine/connection/DatabaseRegistry';
 import { MiddlewareConsumer } from '@nestjs/common/interfaces/middleware/middleware-consumer.interface';
 import { TransactionContextMiddleware } from '@liberation-data/drivine/transaction/TransactionContextMiddleware';
-import { RouteController} from '@/traffic/RouteController';
 
 @Module({
     imports: [
@@ -21,7 +20,7 @@ import { RouteController} from '@/traffic/RouteController';
 export class AppModule implements NestModule {
 
     configure(consumer: MiddlewareConsumer): any {
-        consumer.apply(TransactionContextMiddleware).forRoutes(RouteController);
+        consumer.apply(TransactionContextMiddleware).forRoutes('');
     }
 
 }
