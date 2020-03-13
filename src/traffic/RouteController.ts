@@ -1,7 +1,6 @@
-import {Controller, Get, Param} from '@nestjs/common';
-import {RouteRepository} from '@/traffic/RouteRepository';
-import {Route} from '@/traffic/Route';
-import { Transactional } from '@liberation-data/drivine/transaction/Transactional';
+import { Controller, Get, Param } from '@nestjs/common';
+import { RouteRepository } from '@/traffic/RouteRepository';
+import { Route } from '@/traffic/Route';
 
 export interface RecommendedRouteDto {
     start: string;
