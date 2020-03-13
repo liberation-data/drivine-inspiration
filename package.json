@@ -50,7 +50,6 @@
         "lodash": "^4.17.15",
         "mississippi": "^4.0.0",
         "moment": "^2.24.0",
-        "neo4j-driver": "^1.7.6",
         "reflect-metadata": "^0.1.13",
         "rxjs": "^6.5.3",
         "uuid": "^3.3.2"
