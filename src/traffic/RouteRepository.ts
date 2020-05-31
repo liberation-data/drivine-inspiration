@@ -12,7 +12,7 @@ import { CypherStatement } from '@liberation-data/drivine/query/Statement';
 export class RouteRepository {
     constructor(
         @InjectPersistenceManager() readonly persistenceManager: PersistenceManager,
-        @InjectCypher('@/traffic/routesBetween') readonly routesBetween: CypherStatement
+        @InjectCypher('./routesBetween') readonly routesBetween: CypherStatement
     ) {
     }
 

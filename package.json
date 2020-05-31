@@ -38,7 +38,8 @@
         "test:cov": "jest --coverage"
     },
     "dependencies": {
-        "@liberation-data/drivine": "^1.2.1",
+        "@liberation-data/drivine": "^1.2.3",
+        "@liberation-data/agensgraph": "^0.1.0-rc",
         "neo4j-driver": "^4.0.2",
         "@nestjs/common": "^6.11.11",
         "@nestjs/core": "^6.11.11",
