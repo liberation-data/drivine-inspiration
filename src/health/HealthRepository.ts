@@ -9,7 +9,7 @@ export class HealthRepository {
 
     async countAllVertices(): Promise<number> {
         const results = await this.persistenceManager.query<any>(
-            new QuerySpecification(`match (n) return count(n) as count`)
+            new QuerySpecification(`match (n) with count(n) as count return {count: count}`)
         );
 
         return results[0].count;
