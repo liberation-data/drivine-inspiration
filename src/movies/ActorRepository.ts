@@ -13,7 +13,7 @@ export class ActorRepository {
     @InjectPersistenceManager() readonly persistenceManager: PersistenceManager;
 
     constructor(@InjectPersistenceManager() persistenceManager: PersistenceManager,
-                @InjectCypher(__dirname, 'moviesForActor-NEO4J') readonly moviesForActor: CypherStatement) {
+                @InjectCypher(__dirname, 'moviesForActor') readonly moviesForActor: CypherStatement) {
         this.persistenceManager = persistenceManager;
     }
 

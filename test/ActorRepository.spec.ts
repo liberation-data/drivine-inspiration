@@ -7,7 +7,7 @@ const fs = require('fs');
 
 RunWithDrivine({transaction: {rollback: true}});
 
-describe('ActorRepostiroy', () => {
+describe('ActorRepository', () => {
 
     let repo: ActorRepository;
 
