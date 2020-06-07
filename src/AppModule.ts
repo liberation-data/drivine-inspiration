@@ -3,6 +3,7 @@ import { HealthModule } from './health/HealthModule';
 import { TrafficModule } from './traffic/TrafficModule';
 import { DrivineModule, DrivineModuleOptions } from '@liberation-data/drivine/DrivineModule';
 import { DatabaseRegistry } from '@liberation-data/drivine/connection/DatabaseRegistry';
+import { MovieModule } from '@/movies/MovieModule';
 
 @Module({
     imports: [
@@ -10,6 +11,7 @@ import { DatabaseRegistry } from '@liberation-data/drivine/connection/DatabaseRe
             connectionProviders: [DatabaseRegistry.buildOrResolveFromEnv()]
         }),
         HealthModule,
+        MovieModule,
         TrafficModule
     ],
     controllers: [],
