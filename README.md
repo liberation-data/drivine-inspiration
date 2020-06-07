@@ -5,11 +5,11 @@
 
 **This sample app quick start template for [drivine.org](https://drivine.org). The intention is that you can get rolling as quickly as possible.**
 
-Drivine is a graph database client for Node.js and TypeScript. It was created with the following design goals: 
+## Running the App 
 
-* Support multiple graph databases (simultaneously, if you wish). Currently [AgensGraph](https://bitnine.net/agensgraph/) and 
-[Neo4j](https://neo4j.com/neo4j-graph-database/). 
-* **Scale to hundreds and thousands of transactions per second, without compromising architectural integrity.**
+* Set up either Neo4j or AgensGraph on your workstation. 
+* Copy the `.env.example` to `.env`. Uncomment either the Neo4j or AgensGraph settings. Edit if necessary. 
+* Start the app with `npm start`. 
 
 ### Traffic Routes
 
