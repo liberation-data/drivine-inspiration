@@ -1,15 +1,15 @@
 <a href="https://drivine.org"> ![DrivineSplash](https://liberation-data.com/images/drivine.jpg)</a>
-# <a href="https://drivine.org">drivine.org</a>                                       
+# <a href="https://drivine.org">drivine.org</a>     
+
+# What is It?
+
+**This sample app quick start template for [drivine.org](https://drivine.org). The intention is that you can get rolling as quickly as possible.**
 
 Drivine is a graph database client for Node.js and TypeScript. It was created with the following design goals: 
 
 * Support multiple graph databases (simultaneously, if you wish). Currently [AgensGraph](https://bitnine.net/agensgraph/) and 
 [Neo4j](https://neo4j.com/neo4j-graph-database/). 
 * **Scale to hundreds and thousands of transactions per second, without compromising architectural integrity.**
-
-## Quick Start
-
-This application is a starter template - the intention is that you can get rolling as quickly as possible. 
 
 ### Traffic Routes
 
