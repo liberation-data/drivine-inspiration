@@ -10,15 +10,18 @@ import {
 @Injectable()
 export class ActorRepository {
 
-    @InjectPersistenceManager() readonly persistenceManager: PersistenceManager;
-
-    constructor(@InjectPersistenceManager() persistenceManager: PersistenceManager,
-                @InjectCypher(__dirname, 'moviesForActor') readonly moviesForActor: CypherStatement) {
-        this.persistenceManager = persistenceManager;
+    constructor(@InjectPersistenceManager() readonly persistenceManager: PersistenceManager,
+                @InjectCypher(__dirname, 'moviesForActor') readonly moviesForActor: CypherStatement,
+                @InjectCypher(__dirname, 'coActorsForActor') readonly coActorsForActor: CypherStatement) {
     }
 
     async findByName(name: string): Promise<any> {
         const spec = new QuerySpecification().withStatement(this.moviesForActor).bind([name]);
+        return this.persistenceManager.maybeGetOne(spec);
+    }
+
+    async listCoActors(name: string): Promise<any> {
+        const spec = new QuerySpecification().withStatement(this.coActorsForActor).bind([name]);
         return this.persistenceManager.maybeGetOne(spec);
     }
 
