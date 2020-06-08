@@ -7,7 +7,7 @@ import { RunWithDrivine } from '@liberation-data/drivine/utils/TestUtils';
 
 const fs = require('fs');
 
-RunWithDrivine({transaction: {rollback: true}});
+RunWithDrivine({rollback: true});
 describe('RouteRepository', () => {
     let repo: RouteRepository;
 

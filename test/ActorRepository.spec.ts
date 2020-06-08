@@ -3,7 +3,7 @@ import { AppModule } from '@/AppModule';
 import { RunWithDrivine } from '@liberation-data/drivine/utils/TestUtils';import { ActorRepository } from '@/movies/ActorRepository';
 
 
-RunWithDrivine({transaction: {rollback: true}});
+RunWithDrivine({rollback: true});
 describe('ActorRepository', () => {
 
     let repo: ActorRepository;

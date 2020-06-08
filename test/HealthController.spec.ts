@@ -5,6 +5,7 @@ import { AppModule } from '@/AppModule';
 import { configureApp } from '@/main';
 
 describe('HealthController (e2e)', () => {
+
     let app: INestApplication;
 
     beforeAll(async () => {
