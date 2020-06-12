@@ -17,6 +17,22 @@
 
 Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/traffic/test-data.cypher) before running the tests or the app. 
 
+#### Neo4j
+
+Consult the Neo4j <a href="https://neo4j.com/developer/get-started/">quick start</a> guide for instructions getting set up. 
+
+Open `localhost:7474` and paste the query above in the browser console. 
+
+#### AgensGraph
+
+Consult the AgensGraph <a href="https://bitnine.net/documentations/quick-guide-1-3.html">quick start</a> Guide to get set up. 
+
+```
+cd src/traffic
+~/$AGENSGRAPH_HOME/bin/agens $DATABASE_NAME < ./test-data.cypher
+# For example: ~/liberation-data/agensgraph/bin/agens movies < ./test-data.cypher
+```
+
 #### List routes between two cities
 
 `GET /between/:start/:dest`
@@ -41,6 +57,22 @@ Lists the routes between two cities, ordered by fastest to slowest.
 # Movies
 
 Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/movies/test-data.cypher) before running the tests or the app. 
+
+#### Neo4j
+
+Consult the Neo4j <a href="https://neo4j.com/developer/get-started/">quick start</a> guide for instructions getting set up. 
+
+Open `localhost:7474` and paste the query above in the browser console. 
+
+#### AgensGraph
+
+Consult the AgensGraph <a href="https://bitnine.net/documentations/quick-guide-1-3.html">quick start</a> Guide to get set up. 
+
+```
+cd src/movies
+~/$AGENSGRAPH_HOME/bin/agens $DATABASE_NAME < ./test-data.cypher
+# For example: ~/liberation-data/agensgraph/bin/agens traffic < ./test-data.cypher
+```
 
 #### List Movies for Actor
 
