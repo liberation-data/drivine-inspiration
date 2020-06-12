@@ -25,7 +25,10 @@ Open `localhost:7474` and paste the query above in the browser console.
 
 #### AgensGraph
 
-Consult the AgensGraph <a href="https://bitnine.net/documentations/quick-guide-1-3.html">quick start</a> Guide to get set up. 
+Consult the AgensGraph <a href="https://bitnine.net/documentations/quick-guide-1-3.html">quick start</a> Guide to get set up.
+
+* create vlabel Metro;
+* create elabel HAS_ROUTE;
 
 ```
 cd src/traffic
@@ -67,6 +70,13 @@ Open `localhost:7474` and paste the query above in the browser console.
 #### AgensGraph
 
 Consult the AgensGraph <a href="https://bitnine.net/documentations/quick-guide-1-3.html">quick start</a> Guide to get set up. 
+
+* create vlabel Person;
+* create vlabel Movie;
+* create elabel ACTED_IN;
+* create elabel PRODUCED;
+* create elabel REVIEWED
+* create elabel WROTE;
 
 ```
 cd src/movies
