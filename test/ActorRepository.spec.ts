@@ -22,7 +22,7 @@ describe('ActorRepository', () => {
         console.log(JSON.stringify(results));
     });
 
-    it('should list the movies for a given actor', async () => {
+    it('should list the co-actors for a given actor', async () => {
         const results = await repo.listCoActors('Meg Ryan')
         console.log(JSON.stringify(results));
     });
