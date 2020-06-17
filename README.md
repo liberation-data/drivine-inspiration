@@ -107,6 +107,15 @@ Returns the movies for an actor.
 
 ----
 
+# Troubleshooting!
+
+The number one first-timer's mistake is to use the wrong database driver. It happens. Here's how to fix: 
+
+* Copy `env.example` to `.env` 
+* **Make sure you uncomment the correct section for your database. If you are using Neo4j, uncomment the Neo4j settings, then modify if needed. The AgensGraph settings for Neo4j won't work**
+
+Please reach out (post a question under `drivine` tag on StackOverflow if you have any other issues getting started. 
+
 ## License
 
 Copyright (c) 2019 Liberation Data
