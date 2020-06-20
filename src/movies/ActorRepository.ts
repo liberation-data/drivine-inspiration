@@ -16,12 +16,12 @@ export class ActorRepository {
     }
 
     async findByName(name: string): Promise<any> {
-        const spec = new QuerySpecification().withStatement(this.moviesForActor).bind([name]);
+        const spec = new QuerySpecification().withStatement(this.moviesForActor).bind({name: name});
         return this.persistenceManager.maybeGetOne(spec);
     }
 
     async listCoActors(name: string): Promise<any> {
-        const spec = new QuerySpecification().withStatement(this.coActorsForActor).bind([name]);
+        const spec = new QuerySpecification().withStatement(this.coActorsForActor).bind({name: name});
         return this.persistenceManager.maybeGetOne(spec);
     }
 

@@ -15,8 +15,7 @@
 
 # Traffic Routes
 
-
-:warning: **Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/traffic/test-data.cypher) before running the tests or the app.**
+:warning: Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/traffic/test-data.cypher) before running the tests or the app. 
 
 #### Neo4j
 
@@ -60,7 +59,7 @@ Lists the routes between two cities, ordered by fastest to slowest.
 
 # Movies
 
-:warning: **Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/movies/test-data.cypher) before running the tests or the app.** 
+:warning: Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/movies/test-data.cypher) before running the tests or the app. 
 
 #### Neo4j
 
