@@ -53,7 +53,7 @@ Lists the routes between two cities, ordered by fastest to slowest.
 ## Exercises
 
 * Create an endpoint to mark a route between two cities as blocked. 
-* Modify the routing query to handle road closures. There is a tutorial for that [here](https://liberation-data.com/saxeburg-series/2018/11/28/rock-n-roll-traffic-routing.html)). 
+* Modify the routing query to handle road closures. There is a tutorial for that [here](https://liberation-data.com/saxeburg-series/2018/11/28/rock-n-roll-traffic-routing.html). 
 
 ----
 
