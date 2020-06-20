@@ -112,9 +112,24 @@ Returns the movies for an actor.
 The number one first-timer's mistake is to use the wrong database driver. It happens. Here's how to fix: 
 
 * Copy `env.example` to `.env` 
-* **Make sure you uncomment the correct section for your database. If you are using Neo4j, uncomment the Neo4j settings, then modify if needed. The AgensGraph settings for Neo4j won't work**
+* :warning: Make sure you uncomment the correct section for your database. The AgensGraph driver won't work for Neo4j and vice-versa. 
 
 Please reach out (post a question under `drivine` tag on StackOverflow if you have any other issues getting started. 
+
+## Feedback 
+
+#### I'm not sure how to do [xyz]
+
+> If you can't find what you need in the Quick Start or User Guides, please [post a question on StackOverflow](https://stackoverflow.com/questions/tagged/drivine?sort=newest&pageSize=15), using the Drivine tag. 
+
+#### Interested in contributing?
+
+> Great! A contribution guide, along with detailed documentation will be published in the coming days. 
+
+#### I've found a bug, or have a feature request
+
+> Please raise a <a href="https://github.com/liberation-data/drivine/issues">GitHub</a> issue.
+
 
 ## License
 
