@@ -15,7 +15,7 @@
 
 # Traffic Routes
 
-:warning: Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/traffic/test-data.cypher) before running the tests or the app. 
+> :warning: Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/traffic/test-data.cypher) before running the tests or the app. 
 
 #### Neo4j
 
@@ -59,7 +59,7 @@ Lists the routes between two cities, ordered by fastest to slowest.
 
 # Movies
 
-:warning: Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/movies/test-data.cypher) before running the tests or the app. 
+> :warning: Please load [this gist](https://github.com/liberation-data/drivine-inspiration/blob/master/src/movies/test-data.cypher) before running the tests or the app. 
 
 #### Neo4j
 
@@ -114,17 +114,11 @@ The number one first-timer's mistake is to use the wrong database driver. It hap
 * Copy `env.example` to `.env` 
 * :warning: Make sure you uncomment the correct section for your database. The AgensGraph driver won't work for Neo4j and vice-versa. 
 
-Please reach out (post a question under `drivine` tag on StackOverflow if you have any other issues getting started. 
-
 ## Feedback 
 
 #### I'm not sure how to do [xyz]
 
 > If you can't find what you need in the Quick Start or User Guides, please [post a question on StackOverflow](https://stackoverflow.com/questions/tagged/drivine?sort=newest&pageSize=15), using the Drivine tag. 
-
-#### Interested in contributing?
-
-> Great! A contribution guide, along with detailed documentation will be published in the coming days. 
 
 #### I've found a bug, or have a feature request
 
