@@ -107,7 +107,7 @@ Returns the movies for an actor.
 
 ----
 
-# Troubleshooting!
+## Troubleshooting!
 
 The number one first-timer's mistake is to use the wrong database driver. It happens. Here's how to fix: 
 
