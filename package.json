@@ -49,7 +49,7 @@
         "cls-hooked": "^4.2.2",
         "dotenv": "^8.1.0",
         "find-config": "^1.0.0",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.19",
         "mississippi": "^4.0.0",
         "moment": "^2.24.0",
         "reflect-metadata": "^0.1.13",
