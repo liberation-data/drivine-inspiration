@@ -38,7 +38,7 @@
         "test:cov": "jest --coverage"
     },
     "dependencies": {
-        "@liberation-data/drivine": "^2.0.16",
+        "@liberation-data/drivine": "^2.0.18",
         "@liberation-data/agensgraph": "^0.1.0-rc",
         "class-validator": "^0.12.2",
         "class-transformer": "^0.3.1",
