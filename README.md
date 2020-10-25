@@ -38,12 +38,12 @@ cd src/traffic
 
 #### List routes between two cities
 
-`GET /between/:start/:dest`
+`GET /routes/between/:start/:dest`
 
 Lists the routes between two cities, ordered by fastest to slowest. 
 
 **Example:** 
-`GET routes/between/Pigalle/NYC`
+`GET /routes/between/Pigalle/NYC`
 
 **Results:**
 ```
