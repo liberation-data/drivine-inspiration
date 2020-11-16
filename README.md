@@ -32,7 +32,7 @@ Consult the AgensGraph <a href="https://bitnine.net/documentations/quick-guide-1
 
 ```
 cd src/traffic
-~/$AGENSGRAPH_HOME/bin/agens $DATABASE_NAME < ./test-data.cypher
+~/$AGENSGRAPH_HOME/bin/agens --dbname $DATABASE_NAME < ./test-data.cypher
 # For example: ~/liberation-data/agensgraph/bin/agens movies < ./test-data.cypher
 ```
 
@@ -80,7 +80,7 @@ Consult the AgensGraph <a href="https://bitnine.net/documentations/quick-guide-1
 
 ```
 cd src/movies
-~/$AGENSGRAPH_HOME/bin/agens $DATABASE_NAME < ./test-data.cypher
+~/$AGENSGRAPH_HOME/bin/agens --dbname $DATABASE_NAME < ./test-data.cypher
 # For example: ~/liberation-data/agensgraph/bin/agens traffic < ./test-data.cypher
 ```
 
