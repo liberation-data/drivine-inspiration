@@ -7,8 +7,8 @@ From undefined to NYC via Intramuros,China Town,Ermita,Puerto del Postigo,Sta Is
 From undefined to NYC via Intramuros,Bastille,Puerto del Postigo takes 35.5 minutes.
 From undefined to NYC via Intramuros,China Town,Ermita,Puerto del Postigo takes 37.5 minutes.
 From undefined to NYC via Intramuros,St Germain,China Town,Ermita,Puerto del Postigo takes 41.1 minutes.
-From undefined to NYC via Intramuros,China Town,NYC,Sta Isabel,Puerto del Postigo takes 41.5 minutes.
 From undefined to NYC via Intramuros,China Town,NYC,Puerto del Postigo,Sta Isabel takes 41.5 minutes.
+From undefined to NYC via Intramuros,China Town,NYC,Sta Isabel,Puerto del Postigo takes 41.5 minutes.
 From undefined to NYC via Intramuros,China Town,Divisoria,Bastille,Puerto del Postigo takes 44 minutes.
 From undefined to NYC via Intramuros,Bastille,Divisoria,China Town takes 45.5 minutes.
 From undefined to NYC via Fort Tilden,Brooklyn,Uptown,Intramuros,China Town takes 47 minutes.
