@@ -1,5 +1,5 @@
-<a href="https://drivine.org"> ![DrivineSplash](https://raw.githubusercontent.com/liberation-data/drivine/master/docs/images/splash.jpg)</a>
-# <a href="https://drivine.org">drivine.org</a>     
+<a href="https://liberation-data.github.io/drivine/"> ![DrivineSplash](https://raw.githubusercontent.com/liberation-data/drivine/master/docs/images/splash.jpg)</a>
+# <a href="https://liberation-data.github.io/drivine/">drivine</a>  
 
 # What is It?
 
